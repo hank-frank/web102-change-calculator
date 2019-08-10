@@ -2,13 +2,14 @@ body{
     background-color: #f6f3f7;
     max-width: 1000px;
     min-width: 590px;
+    align-content: center;
 }
 div{
     border: 2px;
     border-color: grey; 
 }
 
-#title {
+#title{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,8 +24,9 @@ div{
 label{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: #4a4946
+    color: #4a4946;
 }
+
 #due-section{
     display: flex;
     justify-content: center;
@@ -34,9 +36,7 @@ label{
     right: 80px;
     padding-bottom: 20px;
     margin-bottom: 20px; 
-    /* border-top: none; */
     border-bottom: 2px solid;; 
-    /* border-style: solid;  */
     border-color: #b8b7b8; 
     align-content: space-between;
 }
@@ -44,24 +44,20 @@ label{
 #amount-due{
     display: flex;
     justify-content: flex-start;
-    /* background-color: gray; */
     width: 150px;
     height: 20px;
     margin-right: 60px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;;
-
+    font-size: 12px;
 }
 
 #amount-received{
     display: flex;
     justify-content: flex-end;
-    /* margin-right: 25%; */
-    /* background-color: gray; */
     width: 150px;
     height: 20px; 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;;
+    font-size: 12px;
 }
 
 #calculate-change{
@@ -69,8 +65,6 @@ label{
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
-    /* margin: 20px; */
-    /* padding: 20px; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     background-color: #4a4946;
@@ -78,6 +72,7 @@ label{
     height: 60px; 
     width: 400px; 
 }
+
 #button{
     display: flex;
     flex-direction: row;
@@ -85,9 +80,8 @@ label{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     padding: 5px;
-
-    
 }
+
 .money-label{
     display: flex;
     justify-content: space-around;
@@ -95,8 +89,9 @@ label{
     flex-wrap: wrap; 
     align-items: flex-end;
     font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;;
+    font-size: 14px;
 }
+
 #change-returned{
     display: flex;
     justify-content: space-around;
@@ -113,3 +108,9 @@ label{
     border-color: #b8b7b8;
 }
 
+#more-money {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #e44141
+}

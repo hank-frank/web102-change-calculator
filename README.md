@@ -1,9 +1,8 @@
-This is a change calculator: 
+This is a change calculator built as a project for the San Diego Code School. 
 
-If you put in the amount something costs, and the total amount of cash used to pay for it, 
-it will return how many dollars, quarters, dimes, nickels, and pennies are needed to 
-be given as change. 
+Project starter files were checked out from the San Diego Code Schools github. 
 
-To load it, pull the repository in its entirety, open the index.html file in the browser
-of your choice. Alternatively if npm/node are installed you may type $npm start into 
-your Command Line and visit the site on the local host address it gives you. 
+To view either open the html file in a browser or run $ npm install followed by $ npm start
+
+Starter files from https://www.sdcs.io/
+Project completed by Henry Frank
